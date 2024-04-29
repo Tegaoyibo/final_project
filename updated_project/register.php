@@ -14,7 +14,9 @@ session_start();
 
 <body>
     <div class="topnav">
+        <a href="about.php">About us</a>
         <a href="login.php">Log in</a>
+        
     </div>
     <br>
     <div class ="register_header">
@@ -41,7 +43,7 @@ session_start();
                 </ul>
             </div>
         <?php endif; ?>
-        <form action="./register-submit.php" method="post">
+        <form action="register-submit.php" method="post">
             <div>
                 <span><label for="fname">First Name: </label></span><br>
                 <input type="text" name="fname" id="fname">
@@ -64,6 +66,7 @@ session_start();
                     <option value="">(Select user type)</option>
                     <option value="buyer">Buyer</option>
                     <option value="seller">Seller</option>
+                    <option value="admin">Admin</option>
                 </select>
             </div>
             <div>
