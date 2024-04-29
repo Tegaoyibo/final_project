@@ -17,13 +17,13 @@
 
 <body>
     <div class="topnav">
-        <a href="./mt4.php">Home</a>
+        <a href="./about.php">About us</a>
         <a href="register.php">Register</a>
     </div>
 
     <br>
 <div class="welcome_header">
-   <h1>Welcome to Team D.I.V.'s <br>Buy'n'Sell-Property-Ecosystem</h1>
+    <h1>Welcome to Team D.I.V.'s <br>Buy'n'Sell-Property-Ecosystem</h1>
     <p id="slogan"><i>Where we bring you one step closer to finding the house of your dreams.</i></p>
 </div>
 <div class="login_img">
